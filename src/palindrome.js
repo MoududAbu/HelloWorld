@@ -8,7 +8,7 @@ function isPalindrome(str) {
 
 function checkPalindrome(str) {
   for (let i = 0; i < Math.floor(str.length / 2); ++i) {
-    if (str.charAt(i) !== str.charAt(str.length - 1 - i)) {
+    if (str.charAt(i).toLowerCase() !== str.charAt(str.length - 1 - i).toLowerCase()) {
       return false;
     }
   }

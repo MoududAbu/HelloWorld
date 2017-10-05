@@ -21,9 +21,13 @@ test("should return true if only single character provided", function() {
 });
 
 test('should return true if string == "racecar"', function() {
-  expect(isPalindrome("racecar")).toBe(true);
+    expect(isPalindrome("racecar")).toBe(true);
 });
 
 test('should return false if string == "garbage"', function() {
-  expect(isPalindrome("garbage")).toBe(false);
+    expect(isPalindrome("garbage")).toBe(false);
+});
+
+test('should return true if string == "Ada"', function() {
+    expect(isPalindrome("Ada")).toBe(true);
 });
