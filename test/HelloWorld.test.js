@@ -1,5 +1,5 @@
-const testSubject = require("../src//HelloWorld");
+const sayHello = require("../src/HelloWorld");
 
 test("Returns Hello World", function() {
-  expect(testSubject()).toBe("Hello World");
+  expect(sayHello()).toBe("Hello World");
 });
