@@ -1,9 +1,5 @@
-
-
-function printTuffailsHead () {
-
-    return 'Hello World'
-
-
+function sayHelloWorld() {
+  return "Hello World";
 }
-module.exports = printTuffailsHead;
+
+module.exports = sayHelloWorld;

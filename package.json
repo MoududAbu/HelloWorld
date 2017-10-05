@@ -7,8 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest --watch"
-
+    "test": "jest --watch",
+    "format": "prettier --write '**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/MoududAbu/HelloWorld#readme",
   "devDependencies": {
-    "jest": "^21.2.1"
-  }
+    "jest": "^21.2.1",
+    "prettier": "^1.7.4"
+  },
+  "dependencies": {}
 }
